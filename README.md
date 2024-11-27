@@ -55,3 +55,16 @@ from IPython import display
 import matplotlib.pyplot as plt
 %matplotlib widget
 ```
+---
+
+## Setup
+
+1. Clone this repository:
+```bash
+git clone https://github.com/your-username/voice-command-recognition.git
+cd voice-command-recognition
+```
+2. Run the script:
+```bash
+python voice_recognition.py
+```
