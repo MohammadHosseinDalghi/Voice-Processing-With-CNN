@@ -87,3 +87,15 @@ tf.keras.utils.get_file(
 
 print('DONE!')
 ```
+
+---
+
+## Model Details
+
+* Input Shape: Spectrograms resized to `32 × 32`.
+* Architecture:
+   - Two convolutional layers with ReLU activation.
+   - MaxPooling and Dropout for regularization.
+   - Dense layers for final classification.
+* Loss Function: Sparse Categorical Crossentropy.
+* Optimizer: Adam.
