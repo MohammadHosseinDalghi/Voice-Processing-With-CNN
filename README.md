@@ -16,3 +16,14 @@ The workflow includes:
    - A CNN model with normalization, convolutional layers, and dropout is trained to classify spectrograms.
 4. **Evaluation:**
    - The model's performance is evaluated using confusion matrices, accuracy metrics, and loss curves.
+
+---
+
+## Key Features
+
+- Utilizes **TensorFlow** and **Keras** for machine learning.
+- Converts audio signals into spectrograms for robust feature extraction.
+- Implements a **CNN model** to classify spectrograms.
+- Includes real-time waveform and spectrogram visualization.
+- Displays model performance metrics with **loss and accuracy curves**.
+- Provides a confusion matrix for detailed performance analysis.
