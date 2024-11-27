@@ -93,9 +93,14 @@ print('DONE!')
 ## Model Details
 
 * Input Shape: Spectrograms resized to `32 × 32`.
-* Architecture:
-   - Two convolutional layers with ReLU activation.
-   - MaxPooling and Dropout for regularization.
-   - Dense layers for final classification.
+* Key Layers:
+   - Two `onv2D` layers with ReLU activation.
+   - `MaxPooling2D` for spatial dimensionality reduction.
+   - `Dropout` for overfitting prevention.
+   - `Dense` layers for final predictions.
 * Loss Function: Sparse Categorical Crossentropy.
 * Optimizer: Adam.
+
+---
+
+## Visualization
