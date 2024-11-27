@@ -61,10 +61,10 @@ import matplotlib.pyplot as plt
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/your-username/voice-command-recognition.git
-cd voice-command-recognition
+git clone https://github.com/MohammadHosseinDalghi/Voice-Processing-With-CNN.git
+cd Voice-Processing-With-CNN
 ```
 2. Run the script:
 ```bash
-python voice_recognition.py
+python index.ipynb
 ```
