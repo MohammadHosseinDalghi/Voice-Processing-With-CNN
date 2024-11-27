@@ -26,7 +26,7 @@ The workflow includes:
 - Implements a **CNN model** to classify spectrograms.
 - Includes real-time waveform and spectrogram visualization.
 - Displays model performance metrics with **loss and accuracy curves**.
-- Provides a confusion matrix for detailed performance analysis.
+- Provides a **confusion matrix** for detailed performance analysis.
 
   ---
   
