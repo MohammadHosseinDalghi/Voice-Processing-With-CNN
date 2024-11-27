@@ -27,3 +27,31 @@ The workflow includes:
 - Includes real-time waveform and spectrogram visualization.
 - Displays model performance metrics with **loss and accuracy curves**.
 - Provides a confusion matrix for detailed performance analysis.
+
+  ---
+
+  
+## Installation
+
+### Dependencies
+Ensure you have Python installed along with the following packages:
+- `tensorflow`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `pathlib`
+- `IPython`
+
+You can install these dependencies using:
+```python
+import os
+import pathlib
+import numpy as np
+import seaborn as sns
+import tensorflow as tf
+from keras.layers import Conv2D, Flatten, Dense, MaxPooling2D, Dropout, Resizing, Input, Normalization
+from keras.models import Sequential
+from IPython import display
+import matplotlib.pyplot as plt
+%matplotlib widget
+```
