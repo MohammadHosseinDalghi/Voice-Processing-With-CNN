@@ -29,7 +29,6 @@ The workflow includes:
 - Provides a confusion matrix for detailed performance analysis.
 
   ---
-
   
 ## Installation
 
@@ -67,4 +66,24 @@ cd Voice-Processing-With-CNN
 2. Run the script:
 ```bash
 python index.ipynb
+```
+
+---
+
+## Dataset
+You can download the dataset using:
+```python
+DATASET_PATH = 'data/'
+
+data_dir = pathlib.Path(DATASET_PATH)
+
+tf.keras.utils.get_file(
+    'voicedataset.zip',
+    origin='http://aiolearn.com/dl/datasets/voicedata.zip',
+    extract=True,
+    cache_dir='.',
+    cache_subdir='data'
+)
+
+print('DONE!')
 ```
