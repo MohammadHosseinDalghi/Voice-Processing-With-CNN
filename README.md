@@ -103,4 +103,10 @@ print('DONE!')
 
 ---
 
-## Visualization
+## Results
+* High accuracy achieved in classifying commands.
+* Comprehensive evaluation using metrics like:
+   - Training Loss
+   - Validation Loss
+   - Test Accuracy
+* Visualization of model predictions and performance.
